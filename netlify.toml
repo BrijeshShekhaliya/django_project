@@ -1,0 +1,6 @@
+[build]
+  publish = "staticfiles"
+  command = "echo 'No build step needed'"
+
+[context.production.environment]
+  DJANGO_SETTINGS_MODULE = "donenv.settings"
